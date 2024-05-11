@@ -10,7 +10,7 @@ namespace Product.Biz.Interfaces
     {
         List<Models.ProductModel.ListProductByProductType> ListByProductType(string Product_Type);
 
-        void InsertProductType(Models.ProductModel.InsertProduct product);
+        void InsertProduct(Models.ProductModel.InsertProduct product);
 
     }
 }

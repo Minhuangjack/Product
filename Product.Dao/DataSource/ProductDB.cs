@@ -1,12 +1,6 @@
-﻿using Product.Dao.Interfaces;
+﻿using System.Data;
+using Product.Dao.Interfaces;
 using Product.Dao.Models;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Product.Dao.DataSource
 {
     // 連結資料庫

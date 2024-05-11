@@ -38,10 +38,6 @@ namespace Product.Biz.Models
             /// </summary>
             public string Product_Name { get; set; }
             /// <summary>
-            /// 商品庫存
-            /// </summary>
-            public int Product_Stock { get; set; }
-            /// <summary>
             /// 商品類別
             /// </summary>
             public string Product_Type { get; set; }

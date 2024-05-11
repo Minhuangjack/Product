@@ -27,7 +27,7 @@ namespace Product.Biz.Services
             }
             set { this.ProductDAO = value; }
         }
-        ProductService()
+        public ProductService()
         {
             product =  new ProductDAO();
         }
@@ -35,6 +35,10 @@ namespace Product.Biz.Services
         public List<ProductModel.ListProductByProductType> ListByProductType(string Product_Type)
         {
             return product.ListByProductType(Product_Type);
+        }
+        public void InsertProduct(InsertProduct insertProduct)
+        {
+            product.InsertProduct(insertProduct);
         }
     }
 }

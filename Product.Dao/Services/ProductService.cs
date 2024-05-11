@@ -1,12 +1,7 @@
-﻿
+﻿using System.Collections.Generic;
+using System.Data;
 using Product.Dao.DataSource;
 using Product.Dao.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static Product.Dao.Models.ProductModel;
 
 namespace Product.Dao.Services

@@ -1,9 +1,4 @@
-﻿using Product.Biz.DataSource;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Product.Biz.Interfaces;
 using Product.Biz.Models;
 using DAO = Product.Dao;
@@ -22,13 +17,12 @@ namespace Product.Biz.DataSource
             productService = new DAO.Services.ProductService();
         }
 
-        public void InsertProductType(InsertProduct product)
+        public void InsertProduct(InsertProduct product)
         {
             ProductDetail productDetail = new ProductDetail() 
             { 
                 Product_Id = product.Product_Id,
                 Product_Name = product.Product_Name,
-                Product_Stock = product.Product_Stock,
                 Product_Type = product.Product_Type,
             };
             productService.InsertProductDetail(productDetail);

@@ -1,16 +1,13 @@
-﻿using Product.Biz.Interfaces;
-using Product.Biz.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Product.Biz.Interfaces;
+using Product.Biz.Models;
 
 namespace Product.Biz.DataSource.FakeData
 {
     public class ProductFake : IProduct
     {
-        public void InsertProductType(ProductModel.InsertProduct product)
+        public void InsertProduct(ProductModel.InsertProduct product)
         {
             throw new NotImplementedException();
         }
