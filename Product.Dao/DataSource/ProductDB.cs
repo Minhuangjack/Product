@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Product.Dao.DataSource
 {
     // 連結資料庫
-    public class ProductDAO: IProduct
+    public class ProductDB: IProduct
     {
         public DataSet ProductListByProductType(string Product_Type)
         { 

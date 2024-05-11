@@ -57,11 +57,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ProductServiceTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Product.Biz\Product.Biz.csproj">
+      <Project>{1bc0b69e-bf6d-4d52-89be-797edbcdfcac}</Project>
+      <Name>Product.Biz</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Product\Product.csproj">
       <Project>{70F7AC1B-281B-4BE3-948B-B7BA12204E87}</Project>
       <Name>Product</Name>

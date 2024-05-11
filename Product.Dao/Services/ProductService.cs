@@ -21,7 +21,7 @@ namespace Product.Dao.Services
             {
                 if (productDAO == null)
                 {
-                    productDAO = new ProductDAO();
+                    productDAO = new ProductDB();
                 }
                 return productDAO;
             }
@@ -50,7 +50,7 @@ namespace Product.Dao.Services
             return productDetails;
         }
 
-        public void InsertProductList(ProductDetail productDetail)
+        public void InsertProductDetail(ProductDetail productDetail)
         {
             productDAO.InsertProduct(productDetail);
         }
